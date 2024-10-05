@@ -1,0 +1,7 @@
+6. Database Backup and Restore-
+
+Provide scripts to back up and restore the database. Demonstrate how to export your database structure and data.
+
+Example Project: Include a script to back up your database to a file and a script to restore it.
+
+<DatabaseBackupandRestore.bash>

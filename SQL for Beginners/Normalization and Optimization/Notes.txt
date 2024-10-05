@@ -1,0 +1,14 @@
+7. Normalization and Optimization-
+
+Showcase your understanding of database normalization by including examples where you normalized a database to reduce redundancy.
+
+Include indexing strategies and examples of how to optimize query performance.
+
+Normalization and Optimization in SQL-
+
+To showcase your understanding of database normalization and optimization, we’ll explore examples that demonstrate how to reduce redundancy and improve query performance. These techniques are essential for ensuring efficient and scalable databases.
+
+1) Normalization
+2) Indexing Strategies
+3) Query Optimization Techniques
+4) Denormalization (When Necessary)

@@ -1,0 +1,7 @@
+5. Views and Indexes-
+
+Create views for commonly used queries to improve performance and simplify complex queries.
+
+Example Project: Show a view that fetches customer orders along with their total amounts.
+
+<ViewsandIndexes.sql>

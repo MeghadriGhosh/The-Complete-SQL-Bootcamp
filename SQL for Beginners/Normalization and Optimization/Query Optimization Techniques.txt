@@ -1,0 +1,23 @@
+3. Query Optimization Techniques-
+
+To further optimize your database performance, here are some key query optimization techniques:
+
+a) Use of Proper Indexing:
+Proper indexing is one of the most powerful optimization strategies. Indexes can significantly improve the speed of read operations, especially when performing JOIN, WHERE, or ORDER BY queries.
+
+b) Avoid SELECT * (Use Explicit Columns):
+Fetching all columns from a table can lead to unnecessary data transfer, especially if only a few columns are needed.
+
+<BadExample.sql>
+
+<OptimizedExample.sql>
+
+c) Use LIMIT with Large Data Sets:
+When querying large datasets, use LIMIT to restrict the number of returned rows and improve performance.
+
+<Limit.sql>
+
+d) Query Execution Plan:
+Use the EXPLAIN command to analyze the execution plan of your queries. It helps identify inefficiencies like full table scans or missing indexes.
+
+<Explain.sql>

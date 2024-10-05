@@ -1,0 +1,9 @@
+1. Database Design and Schema Creation-
+
+Create SQL scripts that define the schema of a database. This can include table creation, relationships, primary and foreign keys, indexes, and constraints.
+
+Example Project: Design a database for an e-commerce system with tables like Customers, Orders, Products, OrderDetails, etc.
+
+Include ER diagrams to visually represent the database relationships (you can generate this from SQL tools like MySQL Workbench or draw.io).
+
+<DatabaseDesignandSchemaCreation.sql>

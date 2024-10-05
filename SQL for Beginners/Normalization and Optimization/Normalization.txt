@@ -1,0 +1,49 @@
+1. Normalization-
+
+Normalization is the process of organizing data in a database to minimize redundancy and dependency. The goal is to break down larger tables into smaller ones and define relationships between them using foreign keys.
+
+Here, we will normalize a basic database schema for a student-course registration system.
+
+Unnormalized Table Example (Data Redundancy):
+Consider the following unnormalized table where data redundancy exists. We have students and their enrolled courses in a single table:
+
+StudentID	StudentName	CourseID	CourseName	InstructorName
+101		Alice		201		Database Design	Dr. Smith
+101		Alice		202		Algorithms	Dr. Johnson
+102		Bob		201		Database Design	Dr. Smith
+102		Bob		203		Data Structures	Dr. Lee
+
+Issues: There’s redundancy in the StudentName and InstructorName columns. For example, if an instructor's name changes, multiple rows would need to be updated.
+
+First Normal Form (1NF):
+1NF requires that each table column must contain atomic values (indivisible). In this case, there’s no violation of 1NF, so we can move on to the next step.
+
+Second Normal Form (2NF):
+2NF requires that all non-key attributes must depend on the entire primary key.
+
+We can split the table into two:
+
+Students Table: Holds unique information about each student.
+Courses Table: Holds unique course information.
+Enrollments Table: Links students to the courses they are enrolled in.
+
+Students Table-
+
+<StudentsTable.sql>
+
+Courses Table-
+
+<CoursesTable.sql>
+
+Enrollments Table-
+
+<EnrollmentsTable.sql>
+
+Advantages:
+Reduces redundancy. The student and course information is stored only once.
+Efficient updates. For example, changing a student's name or instructor's name only requires an update in one place.
+
+Third Normal Form (3NF):
+3NF ensures that all non-key attributes are not only functionally dependent on the primary key but also independent of each other.
+
+If the course information (CourseName, InstructorName) were split into two tables, one for Courses and another for Instructors, it would satisfy 3NF, but in this case, the table design above already satisfies 3NF.

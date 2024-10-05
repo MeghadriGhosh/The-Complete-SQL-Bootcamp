@@ -1,0 +1,7 @@
+4. Stored Procedures and Functions-
+
+Include SQL scripts that create stored procedures and user-defined functions. These scripts can show how you automate tasks like order creation or customer updates.
+
+Example Project: Create a stored procedure that inserts an order and updates stock levels automatically.
+
+<StoredProceduresandFunctioncs.sql>

@@ -1,0 +1,19 @@
+2. Indexing Strategies-
+
+Indexes are critical for optimizing query performance, especially in large databases where searches, joins, and sorting operations can be expensive.
+
+What is an Index?
+An index is a data structure that allows the database to retrieve data faster. It can be created on one or more columns in a table, significantly improving query performance.
+
+Example of Adding Indexes:
+For the student-course system, common queries might involve fetching students’ enrollments or looking up courses by instructor.
+
+Indexing the StudentID and CourseID in the Enrollments table will improve performance when querying the data.
+
+<Indexing1.sql>
+
+These indexes help speed up queries like:
+
+<Indexing2.sql>
+
+Without indexing, the database would perform a full table scan to find matching rows, which could be inefficient for large datasets.

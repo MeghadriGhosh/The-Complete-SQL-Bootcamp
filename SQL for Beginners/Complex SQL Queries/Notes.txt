@@ -1,0 +1,7 @@
+3. Complex SQL Queries-
+
+Demonstrate advanced SQL skills with complex queries like JOINs, subqueries, aggregation, and window functions.
+
+Example Project: Create a series of SQL scripts that perform complex reporting tasks such as calculating total sales, finding the most purchased product, or determining customer order frequency.
+
+<ComplexSQLQueries.sql>

@@ -1,0 +1,10 @@
+4. Denormalization (When Necessary)-
+
+While normalization reduces redundancy, sometimes denormalization is necessary for performance reasons, especially in read-heavy systems. This involves combining tables to reduce JOIN operations at the cost of some redundancy.
+
+Example:
+In a high-read environment like an analytics system, you might store pre-aggregated data (denormalized) to avoid expensive aggregation queries in real-time.
+
+Example of Optimized Schema with Indexes:
+
+<OptimizedSchemawithIndexes.sql>

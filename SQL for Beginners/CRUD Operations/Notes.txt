@@ -1,0 +1,7 @@
+2. CRUD Operations-
+
+Create scripts that show Create, Read, Update, and Delete operations.
+
+Example Project: Provide examples of common queries on your database, such as inserting records, updating prices, deleting customers, and fetching all orders for a specific customer.
+
+<CRUDOperations.sql>
